@@ -33,9 +33,9 @@
     top:0%;
     height: 50px;
     width:50px;
-    background: #000;
+    background: rgb(209, 99, 9);
     border-radius: 50px;
-    animation: animv 1s infinite;
+   
 }
 
 #circle2{
@@ -43,9 +43,9 @@
     top:75%;
     height: 50px;
     width:50px;
-    background: rgb(252, 121, 121);
+    background: rgb(248, 244, 2);
     border-radius: 50px;
-    animation: animh 1s infinite;
+   
 }
 
 #circle3{
@@ -54,9 +54,9 @@
     left:75%;
     height: 50px;
     width:50px;
-    background: rgb(153, 246, 253);
+    background: rgb(8, 68, 1);
     border-radius: 50px;
-    animation: animv 1s infinite;
+   
 }
 
 #circle4{
@@ -65,14 +65,14 @@
     right:0%;
     height: 50px;
     width:50px;
-    background: rgb(250, 176, 115);
+    background: rgb(10, 139, 214);
     border-radius: 50px;
-    animation: animh 1s infinite;
+   
 }
 
 
 
-@keyframes animh {
+@keyframes animhc1 {
     0%   {width: 50px;}
     10%  {width: 75px;}
     20%  {width: 100px;}
