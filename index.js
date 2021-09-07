@@ -6,10 +6,10 @@ var circle3=document.getElementById("circle3");
 var circle4=document.getElementById("circle4");
 
 start.addEventListener("click",function(){
-    circle1.style.animation="animv 1s steps(6) infinite";
-    circle2.style.animation="animh 1s steps(6) infinite";
-    circle3.style.animation="animv 1s steps(6) infinite";
-    circle4.style.animation="animh 1s steps(6) infinite";
+    circle1.style.animation="animvc1 1.5s steps(10) infinite";
+    circle2.style.animation="animhc2 1.5s steps(10) infinite";
+    circle3.style.animation="animvc3 1.5s steps(10) infinite";
+    circle4.style.animation="animhc4 1.5s steps(10) infinite";
 });
 
 end.addEventListener("click",function(){
