@@ -1,5 +1,90 @@
-.circle{
-    width:100 px;
-    height:100 px;
-
+.main_body{
+    width:150px;
+    margin:0 auto;
+    margin-top: 160px;
+    /* background-color: black; */
+    
+   
 }
+.start{
+    padding :5px;
+    float: left;
+    background-color: #08461a;
+    color: antiquewhite;
+}
+.stop{
+    float:right;
+    background-color: #08461a;
+    color: antiquewhite;
+}
+.row1{
+    display:flex;
+    flex-flow: row;
+    /* justify-content: space-between;
+    align-content: space-between; */
+  
+}
+
+.row2{
+    margin-top: 75px;
+    display:flex;
+    flex-flow: row;
+
+  
+}
+
+.row3{
+    margin-top:30px;
+    display:flex;
+    flex-flow: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.circle1{
+    
+    width: 50px;
+    height: 50px;
+    background-color: #d6860e;
+    border-radius: 50%;
+  
+    display: flex;
+    align-items: center;
+   
+   
+    
+}
+.circle2{
+    
+    width: 50px;
+    height: 50px;
+    background-color: #ebd768;
+    border-radius: 50%;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+  
+}
+.circle3{
+    
+    width: 50px;
+    height: 50px;
+    background-color: #08461a;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    
+}
+.circle4{
+    width: 50px;
+    height: 50px;
+    background-color: #3acbf7;
+    border-radius: 50%;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
